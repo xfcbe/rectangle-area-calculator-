@@ -7,6 +7,7 @@ int main()
 {
     int side;
     int length;
+    int sound =7;
 
     printf("Enter side: ");
     scanf("%d",&side);
@@ -16,7 +17,7 @@ int main()
     scanf("%d",&length);
 
     int calculation = r_Area(side ,length);
-    printf("\nanswer is: %d ",calculation);
+    printf("\nanswer is: %d %c ",calculation,sound);
 
     return 0;
 }
